@@ -5,10 +5,12 @@ class PageAdmin(admin.ModelAdmin):
     list_display = (
         'url',
         'user_agent',
-        'page_file',
         'date_created',
     )
     list_filter = (
+        'user_agent',
+    )
+    search_fields = (
         'url',
         'user_agent',
     )
