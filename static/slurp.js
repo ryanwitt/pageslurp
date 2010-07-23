@@ -157,7 +157,7 @@ e&&e.document?e.document.compatMode==="CSS1Compat"&&e.document.documentElement["
 
 var slurp_loaded = true;
 var page_text = document.getElementsByTagName('head')[0].innerHTML + '\n' + document.getElementsByTagName('body')[0].innerHTML;
-$('body').append('<div id="slurpdiv" style="display: block; position:fixed; z-index: 999999; top:0; left:0; margin:20px; padding:10px; border:10px solid #cccccc; background-color: #fff;"><h1 id="slurptext" style="font-family:serif; margin:0; padding:1em; font-size: 20px font-weight: bold; color: #000000;">Slurping...</h1></div>');
+$('body').append('<div id="slurpdiv" style="display: block; position:fixed; z-index: 999999; top:0; left:0; margin:20px; padding:10px; border:10px solid #cccccc; background-color: #fff;"><h1 id="slurptext" style="font-family:serif; vertical-align: baseline; font-style: normal; border: 0 none; outline: 0; margin:0; padding:1em; font-size: 32px; font-weight: bold; color: #000000;">Slurping...</h1></div>');
 $('#slurpdiv').show();
 setTimeout(function () {
     $.post(
