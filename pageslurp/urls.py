@@ -1,5 +1,5 @@
 from django.conf.urls.defaults import *
-from page_receiver.views import receive
+from pageslurp.page_receiver.views import receive
 from django.contrib import admin
 
 admin.autodiscover()

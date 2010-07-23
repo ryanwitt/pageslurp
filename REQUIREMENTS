@@ -1,2 +1,5 @@
 Django==1.2.1
-south
+MySQL-python==1.2.3
+Paste==1.7.4
+distribute==0.6.10
+wsgiref==0.1.2
